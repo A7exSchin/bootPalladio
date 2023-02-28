@@ -138,6 +138,8 @@
           <annotation
               source="http://www.eclipse.org/oomph/setup/ReleaseTrain"/>
         </repository>
+        <repository
+            url="https://download.eclipse.org/modeling/emf/emf/builds/release/2.23/"/>
       </setupTask>
       <setupTask
           xsi:type="setup.p2:P2Task"
@@ -172,6 +174,8 @@
             name="org.palladiosimulator.branding.feature.feature.group"/>
         <requirement
             name="org.palladiosimulator.supporting.workarounds.epackageinit.feature.feature.group"/>
+        <requirement
+            name="org.palladiosimulator.analyzer.feature.feature.group"/>
         <repository
             url="https://updatesite.palladio-simulator.com/palladio-build-updatesite/nightly/"/>
         <repository
