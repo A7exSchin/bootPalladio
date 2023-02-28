@@ -176,6 +176,8 @@
             url="https://updatesite.palladio-simulator.com/palladio-build-updatesite/nightly/"/>
         <repository
             url="https://updatesite.palladio-simulator.com/palladio-supporting-workarounds/releases/latest/"/>
+        <repository
+            url="https://updatesite.palladio-simulator.com/palladio-analyzer-framework/releases/5.1.0/"/>
       </setupTask>
     </version>
     <description>The Palladio Bench contains all features needed to use Palladio for analyses or development. It is based on the Eclipse Modeling Tools.</description>
