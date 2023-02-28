@@ -132,7 +132,8 @@
         <requirement
             name="org.eclipse.xsd.sdk.feature.group"/>
         <requirement
-            name="org.eclipse.xtext"/>
+            name="org.eclipse.xtext"
+            versionRange="2.23.0"/>
         <repository
             url="http://download.eclipse.org/technology/epp/packages/2020-06"/>
         <repository
