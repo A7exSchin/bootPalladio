@@ -131,6 +131,8 @@
             name="org.eclipse.uml2.sdk.feature.group"/>
         <requirement
             name="org.eclipse.xsd.sdk.feature.group"/>
+        <requirement
+            name="org.eclipse.xtext"/>
         <repository
             url="http://download.eclipse.org/technology/epp/packages/2020-06"/>
         <repository
@@ -140,6 +142,8 @@
         </repository>
         <repository
             url="https://download.eclipse.org/modeling/emf/emf/builds/release/2.23/"/>
+        <repository
+            url="http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/"/>
       </setupTask>
       <setupTask
           xsi:type="setup.p2:P2Task"
