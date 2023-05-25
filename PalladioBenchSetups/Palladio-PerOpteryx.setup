@@ -18,6 +18,11 @@
       <value>Eclipse</value>
     </detail>
   </annotation>
+  <setupTask
+      xsi:type="setup:EclipseIniTask"
+      id="ChangePerspective"
+      option="-perspective"
+      value="org.palladiosimulator.pcmbench.perspectives.palladio"/>
   <version name="Eclipse 2021.12"
       label="Eclipse 2021.12"
       requiredJavaVersion="17">
