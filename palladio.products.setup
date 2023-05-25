@@ -19,7 +19,6 @@
         url="${oomph.update.url}"/>
   </setupTask>
   <product href="PalladioBenchSetups/Palladio.setup#/"/>
-  <description>Palladio provides cool products.</description>
   <product href="PalladioBenchSetups/Palladio-PerOpteryx.setup#/"/>
-  <description>Palladio Peropteryx provides cool products.</description>
+  <description>Palladio provides cool products.</description>
 </setup:ProductCatalog>

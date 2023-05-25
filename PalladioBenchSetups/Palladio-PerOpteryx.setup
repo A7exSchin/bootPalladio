@@ -89,7 +89,7 @@
       <repository
           url="http://download.eclipse.org/mmt/qvto/updates/releases/latest"/>
     </setupTask>
-    <description>Palladio for 2021-12</description>
+    <description>Palladio - PerOpteryx for 2021-12</description>
   </version>
-  <description>Palladio provides cool stuff.</description>
+  <description>Palladio PerOpteryx provides cool stuff.</description>
 </setup:Product>
