@@ -16,7 +16,5 @@
 
   <productCatalog
       href="palladio.products.setup#/"/>
-  <productCatalog
-      href="https://updatesite.palladio-simulator.com/palladio-bench-oomph/nightly/plain/setups/redirectable.products.setup"/>
 
 </setup:Index>

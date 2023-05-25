@@ -18,23 +18,7 @@
     <repository
         url="${oomph.update.url}"/>
   </setupTask>
-  <product href="PalladioBenchSetups/Palladio.setup#/">
-    <annotation
-        source="http://www.eclipse.org/oomph/setup/BrandingInfo">
-      <detail
-          key="imageURI">
-        <value>https://www.palladio-simulator.com/fileadmin/_processed_/0/e/csm_palladio-logo-2010_de5871067f.png</value>
-      </detail>
-    </annotation>
-  </product>
-  <product href="PalladioBenchSetups/Palladio-PerOpteryx.setup#/">
-    <annotation
-        source="http://www.eclipse.org/oomph/setup/BrandingInfo">
-      <detail
-          key="imageURI">
-        <value>https://www.palladio-simulator.com/fileadmin/_processed_/0/e/csm_palladio-logo-2010_de5871067f.png</value>
-      </detail>
-    </annotation>
-  </product>
+  <product href="PalladioBenchSetups/Palladio.setup#/"/>
+  <product href="PalladioBenchSetups/Palladio-PerOpteryx.setup#/"/>
   <description>Palladio provides cool products.</description>
 </setup:ProductCatalog>

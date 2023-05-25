@@ -17,6 +17,10 @@
         key="folderName.macosx">
       <value>Eclipse</value>
     </detail>
+    <detail
+        key="imageURI">
+      <value>https://www.palladio-simulator.com/fileadmin/_processed_/0/e/csm_palladio-logo-2010_de5871067f.png</value>
+    </detail>
   </annotation>
   <setupTask
       xsi:type="setup.p2:P2Task"
