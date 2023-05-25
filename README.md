@@ -3,7 +3,7 @@
 This repository contains a valid Eclipse Installer index and product catalog. The catalog points to a single Palladio Product file, which is a reproduction of the Palladio Product Feature.
 
 ## How to use
-First it is necessary to add the code snippet below to the `indices.xmi` file of the Eclipse Installer instance you are using. This usually is located in `<eclipse_installer_root_dir>/configuration/org.eclipse.oomph.setup/indices.xmi`
+First it is necessary to add the code snippet below to the `indices.xmi` file inside the `base:Annotation` field of the Eclipse Installer instance you are using. This usually is located in `<eclipse_installer_root_dir>/configuration/org.eclipse.oomph.setup/indices.xmi`
 
 ```
 <detail key="https://raw.githubusercontent.com/A7exSchin/bootPalladio/main/org.eclipse.setup">
