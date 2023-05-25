@@ -23,6 +23,62 @@
       id="ChangePerspective"
       option="-perspective"
       value="org.palladiosimulator.pcmbench.perspectives.palladio"/>
+  <setupTask
+      xsi:type="setup.p2:P2Task"
+      label="Palladio Specific">
+    <requirement
+        name="org.palladiosimulator.editors.commons.feature.feature.group"/>
+    <requirement
+        name="org.palladiosimulator.editors.sirius.feature.feature.group"/>
+    <requirement
+        name="org.palladiosimulator.editors.tree.feature.feature.group"/>
+    <requirement
+        name="org.palladiosimulator.edp2.feature.feature.group"/>
+    <requirement
+        name="org.palladiosimulator.edp2.ui.feature.feature.group"/>
+    <requirement
+        name="org.palladiosimulator.pcm.feature.feature.group"/>
+    <requirement
+        name="org.palladiosimulator.protocom.feature.feature.group"/>
+    <requirement
+        name="org.palladiosimulator.solver.feature.feature.group"/>
+    <requirement
+        name="org.palladiosimulator.reliability.feature.feature.group"/>
+    <requirement
+        name="org.palladiosimulator.recorderframework.feature.feature.group"/>
+    <requirement
+        name="org.palladiosimulator.analyzer.feature.feature.group"/>
+    <requirement
+        name="org.palladiosimulator.simulizar.feature.feature.group"/>
+    <requirement
+        name="org.palladiosimulator.monitorrepository.feature.feature.group"/>
+    <requirement
+        name="org.palladiosimulator.experimentautomation.application.tooladapter.simulizar.feature.feature.group"/>
+    <requirement
+        name="org.palladiosimulator.simulation.abstractsimengine.desmoj.feature.feature.group"/>
+    <requirement
+        name="org.palladiosimulator.measurementsui.feature.feature.group"/>
+    <requirement
+        name="org.eclipse.ocl.unified.ui.feature.group"/>
+    <requirement
+        name="org.eclipse.m2m.qvt.oml.sdk.feature.group"/>
+    <requirement
+        name="de.uka.ipd.sdq.dsexplore.feature.feature.group"/>
+    <requirement
+        name="org.palladiosimulator.branding.feature.feature.group"/>
+    <repository
+        url="https://updatesite.palladio-simulator.com/palladio-build-updatesite/releases/latest/"/>
+    <repository
+        url="https://updatesite.palladio-simulator.com/palladio-analyzer-framework/releases/"/>
+    <repository
+        url="https://download.eclipse.org/sirius/updates/releases/7.1.0/2021-06"/>
+    <repository
+        url="https://updatesite.palladio-simulator.com/palladio-core-pcm/releases/latest/"/>
+    <repository
+        url="https://download.eclipse.org/modeling/mdt/ocl/updates/releases/6.18.0/"/>
+    <repository
+        url="http://download.eclipse.org/mmt/qvto/updates/releases/latest"/>
+  </setupTask>
   <version name="Eclipse 2021.12"
       label="Eclipse 2021.12"
       requiredJavaVersion="17">
@@ -39,60 +95,6 @@
           url="https://download.eclipse.org/releases/2021-12/"/>
       <repository
           url="https://download.eclipse.org/eclipse/updates/4.22"/>
-    </setupTask>
-    <setupTask
-        xsi:type="setup.p2:P2Task"
-        label="Palladio Specific">
-      <requirement
-          name="org.palladiosimulator.editors.commons.feature.feature.group"/>
-      <requirement
-          name="org.palladiosimulator.editors.sirius.feature.feature.group"/>
-      <requirement
-          name="org.palladiosimulator.editors.tree.feature.feature.group"/>
-      <requirement
-          name="org.palladiosimulator.edp2.feature.feature.group"/>
-      <requirement
-          name="org.palladiosimulator.edp2.ui.feature.feature.group"/>
-      <requirement
-          name="org.palladiosimulator.pcm.feature.feature.group"/>
-      <requirement
-          name="org.palladiosimulator.protocom.feature.feature.group"/>
-      <requirement
-          name="org.palladiosimulator.solver.feature.feature.group"/>
-      <requirement
-          name="org.palladiosimulator.reliability.feature.feature.group"/>
-      <requirement
-          name="org.palladiosimulator.recorderframework.feature.feature.group"/>
-      <requirement
-          name="org.palladiosimulator.analyzer.feature.feature.group"/>
-      <requirement
-          name="org.palladiosimulator.simulizar.feature.feature.group"/>
-      <requirement
-          name="org.palladiosimulator.monitorrepository.feature.feature.group"/>
-      <requirement
-          name="org.palladiosimulator.experimentautomation.application.tooladapter.simulizar.feature.feature.group"/>
-      <requirement
-          name="org.palladiosimulator.simulation.abstractsimengine.desmoj.feature.feature.group"/>
-      <requirement
-          name="org.palladiosimulator.measurementsui.feature.feature.group"/>
-      <requirement
-          name="org.eclipse.ocl.unified.ui.feature.group"/>
-      <requirement
-          name="org.eclipse.m2m.qvt.oml.sdk.feature.group"/>
-      <requirement
-          name="de.uka.ipd.sdq.dsexplore.feature.feature.group"/>
-      <repository
-          url="https://updatesite.palladio-simulator.com/palladio-build-updatesite/releases/latest/"/>
-      <repository
-          url="https://updatesite.palladio-simulator.com/palladio-analyzer-framework/releases/"/>
-      <repository
-          url="https://download.eclipse.org/sirius/updates/releases/7.1.0/2021-06"/>
-      <repository
-          url="https://updatesite.palladio-simulator.com/palladio-core-pcm/releases/latest/"/>
-      <repository
-          url="https://download.eclipse.org/modeling/mdt/ocl/updates/releases/6.18.0/"/>
-      <repository
-          url="http://download.eclipse.org/mmt/qvto/updates/releases/latest"/>
     </setupTask>
     <description>Palladio - PerOpteryx for 2021-12</description>
   </version>

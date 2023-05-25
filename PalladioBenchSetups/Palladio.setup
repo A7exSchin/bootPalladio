@@ -57,6 +57,8 @@
         name="org.eclipse.ocl.unified.ui.feature.group"/>
     <requirement
         name="org.eclipse.m2m.qvt.oml.sdk.feature.group"/>
+    <requirement
+        name="org.palladiosimulator.branding.feature.feature.group"/>
     <repository
         url="https://updatesite.palladio-simulator.com/palladio-build-updatesite/releases/latest/"/>
     <repository
