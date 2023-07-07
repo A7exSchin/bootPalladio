@@ -29,6 +29,10 @@
         name="org.palladiosimulator.product.feature.feature.group"/>
     <repository
         url="https://updatesite.palladio-simulator.com/palladio-bench-product/branches/5.1.0_plugin/"/>
+    <repository
+        url="https://updatesite.palladio-simulator.com/palladio-build-updatesite/releases/latest/"/>
+    <repository
+        url="https://updatesite.palladio-simulator.com/palladio-analyzer-framework/releases/"/>
   </setupTask>
   <setupTask
       xsi:type="setup:EclipseIniTask"
