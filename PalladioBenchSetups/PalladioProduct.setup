@@ -33,6 +33,14 @@
         url="https://updatesite.palladio-simulator.com/palladio-build-updatesite/releases/latest/"/>
     <repository
         url="https://updatesite.palladio-simulator.com/palladio-analyzer-framework/releases/"/>
+    <repository
+        url="https://download.eclipse.org/sirius/updates/releases/7.1.0/2021-06"/>
+    <repository
+        url="https://updatesite.palladio-simulator.com/palladio-core-pcm/releases/latest/"/>
+    <repository
+        url="https://download.eclipse.org/modeling/mdt/ocl/updates/releases/latest/"/>
+    <repository
+        url="http://download.eclipse.org/mmt/qvto/updates/releases/latest"/>
   </setupTask>
   <setupTask
       xsi:type="setup:EclipseIniTask"
