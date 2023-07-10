@@ -5,17 +5,17 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:setup="http://www.eclipse.org/oomph/setup/1.0"
     xmlns:setup.p2="http://www.eclipse.org/oomph/setup/p2/1.0"
-    name="palladio"
-    label="Palladio">
+    name="palladio-bench"
+    label="Palladio Bench">
   <annotation
       source="http://www.eclipse.org/oomph/setup/BrandingInfo">
     <detail
         key="folderName">
-      <value>eclipse</value>
+      <value>palladio</value>
     </detail>
     <detail
         key="folderName.macosx">
-      <value>Eclipse</value>
+      <value>Palladio</value>
     </detail>
     <detail
         key="imageURI">
@@ -26,43 +26,11 @@
       xsi:type="setup.p2:P2Task"
       label="Palladio Specific">
     <requirement
-        name="org.palladiosimulator.editors.commons.feature.feature.group"/>
+        name="org.palladiosimulator.palladiobench.product"/>
     <requirement
-        name="org.palladiosimulator.editors.sirius.feature.feature.group"/>
-    <requirement
-        name="org.palladiosimulator.editors.tree.feature.feature.group"/>
-    <requirement
-        name="org.palladiosimulator.edp2.feature.feature.group"/>
-    <requirement
-        name="org.palladiosimulator.edp2.ui.feature.feature.group"/>
-    <requirement
-        name="org.palladiosimulator.pcm.feature.feature.group"/>
-    <requirement
-        name="org.palladiosimulator.protocom.feature.feature.group"/>
-    <requirement
-        name="org.palladiosimulator.solver.feature.feature.group"/>
-    <requirement
-        name="org.palladiosimulator.reliability.feature.feature.group"/>
-    <requirement
-        name="org.palladiosimulator.recorderframework.feature.feature.group"/>
-    <requirement
-        name="org.palladiosimulator.analyzer.feature.feature.group"/>
-    <requirement
-        name="org.palladiosimulator.simulizar.feature.feature.group"/>
-    <requirement
-        name="org.palladiosimulator.monitorrepository.feature.feature.group"/>
-    <requirement
-        name="org.palladiosimulator.experimentautomation.application.tooladapter.simulizar.feature.feature.group"/>
-    <requirement
-        name="org.palladiosimulator.simulation.abstractsimengine.desmoj.feature.feature.group"/>
-    <requirement
-        name="org.palladiosimulator.measurementsui.feature.feature.group"/>
-    <requirement
-        name="org.eclipse.ocl.unified.ui.feature.group"/>
-    <requirement
-        name="org.eclipse.m2m.qvt.oml.sdk.feature.group"/>
-    <requirement
-        name="org.palladiosimulator.branding.feature.feature.group"/>
+        name="org.palladiosimulator.product.feature.feature.group"/>
+    <repository
+        url="https://updatesite.palladio-simulator.com/palladio-bench-product/branches/5.1.0_plugin/"/>
     <repository
         url="https://updatesite.palladio-simulator.com/palladio-build-updatesite/releases/latest/"/>
     <repository
@@ -75,6 +43,31 @@
         url="https://download.eclipse.org/modeling/mdt/ocl/updates/releases/latest/"/>
     <repository
         url="http://download.eclipse.org/mmt/qvto/updates/releases/latest"/>
+    <unit id="org.palladiosimulator.product.feature.feature.group">
+			<update
+          id="org.palladiosimulator.product.feature.feature.group"
+          range="[5.0.0,6.0.0)"
+          severity="0"
+          description="Product installation for Palladio"/>
+			<properties
+          size="5">
+				<property
+            name="org.eclipse.equinox.p2.name"
+            value="Palladio Bench"/>
+				<property
+            name="org.eclipse.equinox.p2.type.product"
+            value="true"/>
+				<property
+            name="org.eclipse.equinox.p2.type.group"
+            value="true"/>
+				<property
+            name="org.eclipse.equinox.p2.description"
+            value="5.1.0 Release of the Palladio Bench"/>
+				<property
+            name="org.eclipse.equinox.p2.provider"
+            value="palladiosimulator.org"/>
+			</properties>
+		</unit>
   </setupTask>
   <setupTask
       xsi:type="setup:EclipseIniTask"
@@ -100,5 +93,8 @@
     </setupTask>
     <description>Palladio for 2021-12</description>
   </version>
-  <description>Palladio provides cool stuff.</description>
+  <description>
+    Palladio-Product allows the isntallation of the Palladio
+    Product Feature.
+  </description>
 </setup:Product>
