@@ -27,6 +27,8 @@
       label="Palladio Specific">
     <requirement
         name="org.palladiosimulator.palladiobench.product"/>
+    <requirement
+        name="org.palladiosimulator.product.feature.feature.group"/>
     <repository
         url="https://updatesite.palladio-simulator.com/palladio-bench-product/branches/5.1.0_plugin/"/>
     <repository
