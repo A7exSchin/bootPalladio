@@ -26,7 +26,7 @@
 	<setupTask
 		xsi:type="setup.p2:P2Task"
 		label="Palladio Specific">
-		<requirement name='org.palladiosimulator.product.feature.feature.group'/>
+		<requirement name="org.palladiosimulator.product.feature.feature.group"/>
 		<unit id="org.palladiosimulator.product.feature.feature.group">
 			<update
 				id="org.palladiosimulator.product.feature.feature.group"
