@@ -26,9 +26,7 @@
       xsi:type="setup.p2:P2Task"
       label="Palladio Specific">
     <requirement
-        name="org.palladiosimulator.product.feature"
-        namespace="org.eclipse.update.feature"
-        filter="(org.eclipse.update.install.features=true)"/>
+        name="org.palladiosimulator.palladiobench.product"/>
     <repository
         url="https://updatesite.palladio-simulator.com/palladio-bench-product/branches/5.1.0_plugin/"/>
     <repository
