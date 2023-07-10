@@ -67,4 +67,14 @@
     <description>Palladio for 2021-12</description>
   </version>
   <description>Palladio-Product provides cool stuff.</description>
+  <unit id='org.palladiosimulator.product.feature.feature.group' version='5.1.0'>
+	  <update id='org.palladiosimulator.product.feature.feature.group' range='[5.0.0,6.0.0)' severity='0' description='Product installation for Palladio'/>
+	  <properties size='5'>
+	    <property name='org.eclipse.equinox.p2.name' value='Palladio Bench'/>
+	    <property name='org.eclipse.equinox.p2.type.product' value='true'/>
+	    <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+	    <property name='org.eclipse.equinox.p2.description' value='5.1.0 Release of the Palladio Bench'/>
+	    <property name='org.eclipse.equinox.p2.provider' value='palladiosimulator.org'/>
+	  </properties>
+  </unit>
 </setup:Product>
