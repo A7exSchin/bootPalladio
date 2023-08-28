@@ -20,6 +20,5 @@
   </setupTask>
   <product href="PalladioBenchSetups/Palladio.setup#/"/>
   <product href="PalladioBenchSetups/Palladio-PerOpteryx.setup#/"/>
-  <product href="PalladioBenchSetups/OomphUpdateTest.setup#/"/>
   <description>Palladio provides cool products.</description>
 </setup:ProductCatalog>
